@@ -21,11 +21,23 @@ window.DOGAM = {
   "support": "",
   "shop": ""
  },
+ "groups": [
+  {
+   "key": "korea",
+   "label": "한국 괴담"
+  },
+  {
+   "key": "world",
+   "label": "해외 괴담"
+  }
+ ],
  "creatures": [
   {
    "key": "dokkaebi",
    "no": "No.001",
    "name": "도깨비",
+   "group": "korea",
+   "country": "",
    "ep": "「도깨비 씨름」",
    "url": "https://www.youtube.com/watch?v=d2ql87Q2P5I",
    "alt": [
@@ -49,6 +61,8 @@ window.DOGAM = {
    "key": "nui",
    "no": "No.002",
    "name": "여우누이",
+   "group": "korea",
+   "country": "",
    "ep": "「여우누이」",
    "url": "https://www.youtube.com/watch?v=S5TzeTf8GHM",
    "alt": [
@@ -72,6 +86,8 @@ window.DOGAM = {
    "key": "janghwa",
    "no": "No.003",
    "name": "장화홍련",
+   "group": "korea",
+   "country": "",
    "ep": "「장화홍련전」",
    "url": "https://www.youtube.com/watch?v=98rg7MqBJs4",
    "alt": [
@@ -95,6 +111,8 @@ window.DOGAM = {
    "key": "gumiho",
    "no": "No.004",
    "name": "구미호",
+   "group": "korea",
+   "country": "",
    "ep": "「여우구슬」",
    "url": "https://www.youtube.com/watch?v=ETYh0nSNpdo",
    "alt": [
@@ -118,6 +136,8 @@ window.DOGAM = {
    "key": "sinbu",
    "no": "No.005",
    "name": "사그라진 신부",
+   "group": "korea",
+   "country": "",
    "ep": "「사그라진 신부」",
    "url": "https://www.youtube.com/watch?v=skD-M_zcrIo",
    "alt": [
@@ -141,6 +161,8 @@ window.DOGAM = {
    "key": "wonsu",
    "no": "No.006",
    "name": "아들로 태어난 원수",
+   "group": "korea",
+   "country": "",
    "ep": "「아들로 태어난 원수」",
    "url": "https://www.youtube.com/watch?v=pEttAPCAOG0",
    "alt": [
@@ -164,6 +186,8 @@ window.DOGAM = {
    "key": "hosik",
    "no": "No.007",
    "name": "아이 업은 여자",
+   "group": "korea",
+   "country": "",
    "ep": "「호식 당할 운명」",
    "url": "https://www.youtube.com/watch?v=3GX1fSQjfF0",
    "alt": [
@@ -187,6 +211,8 @@ window.DOGAM = {
    "key": "jine",
    "no": "No.008",
    "name": "지네각시",
+   "group": "korea",
+   "country": "",
    "ep": "「지네각시」",
    "url": "https://www.youtube.com/watch?v=XzKEAzzRsl4",
    "alt": [
@@ -204,6 +230,31 @@ window.DOGAM = {
     ],
     "answer": 2,
     "text": "지네와 승천을 다투던 구렁이였다고 전한다."
+   }
+  },
+  {
+   "key": "musa",
+   "no": "일본 No.001",
+   "name": "죽은 무사",
+   "group": "world",
+   "country": "일본",
+   "ep": "「밤마다 불려 가는 눈먼 악사」",
+   "url": "https://www.youtube.com/watch?v=E42-xlOIUeQ",
+   "alt": [
+    "달 없는 밤, 좁은 바다 위를 떠도는 희푸른 불 수십 점",
+    "비 오는 밤 길가에 숨어서 본, 악사의 손목을 쥐고 진창길을 가는 갑옷의 뒷모습",
+    "달빛 든 툇마루에 마주 선 갑옷의 무사, 숙인 투구 속은 어둠이다"
+   ],
+   "seal": {
+    "label": "무사가 본 것",
+    "q": "온몸에 경문을 적은 악사에게서 무사의 눈에 보인 것은 무엇이었을까요?",
+    "opts": [
+     "두 눈",
+     "두 귀",
+     "두 손"
+    ],
+    "answer": 1,
+    "text": "경문을 적지 않은 두 귀만 보였다고 전한다."
    }
   }
  ]
